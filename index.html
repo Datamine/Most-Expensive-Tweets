@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Most Expensive Tweets</title>
+    <meta charset='utf-8'>
+    <meta name=viewport content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href='common.css'>
+    <link rel="stylesheet" href='media_queries.css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js" integrity="sha384-OSdtyy4G8fWV9wBGRuT7btbtyn8Vc/5uwrUKVwxuZkEME2DHijfP3pC3oT9j7FcH" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script async>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+</head>
+
+<body>
+    <div class='container col-12 main-container'>
+        <div class='header row justify-content-center'>
+            MOST EXPENSIVE TWEETS
+        </div>
+
+        <div class='row align-items-center justify-content-center content' id='tweet-container'>
+            <div class='center-container'>
+                <a class="twitter-share-button" data-size='large' href="https://twitter.com/intent/tweet">Tweet About This</a>
+            </div>
+        </div>
+
+        <div class='footer row justify-content-center'>
+            <div>
+                Contribute on <a href='https://github.com/Datamine/Most-Expensive-Tweets'>GitHub</a> | Maintained by <a href='https://johnloeber.com'>John Loeber</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
