@@ -7,10 +7,12 @@ $(document).ready(function() {
                 for (var i = 0; i < response.length; i++) {
                     let tweetblob = response[i]
                     $('#tweet-container').append(`
-                        <div class='center-container subheader'>
+                        <div class='center-container ranking'>
                             #${i+1}
                         </div>
-                        <div class='center-container' id='${i}'>
+                        <div class='center-container'>
+                            <div id='${i}' align='center'>
+                            </div>
                         </div>
                     `);
                     twttr.widgets.createTweet(

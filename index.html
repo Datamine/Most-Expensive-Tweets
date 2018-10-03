@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href='common.css'>
     <link rel="stylesheet" href='media_queries.css'>
+    <link rel="canonical" href="/web/tweet-button">
+    <link rel="me" href="https://twitter.com/johnloeber">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js" integrity="sha384-OSdtyy4G8fWV9wBGRuT7btbtyn8Vc/5uwrUKVwxuZkEME2DHijfP3pC3oT9j7FcH" crossorigin="anonymous"></script>
     <script type="text/javascript" src="index.js"></script>
     <script async>window.twttr = (function(d, s, id) {
@@ -27,18 +29,18 @@
 </head>
 
 <body>
-    <div class='container col-12 main-container'>
-        <div class='header row justify-content-center'>
+    <div class='col-12 main-container'>
+        <div class='header'>
             MOST EXPENSIVE TWEETS
         </div>
 
-        <div class='row align-items-center justify-content-center content' id='tweet-container'>
+        <div class='align-items-center justify-content-center content' id='tweet-container'>
             <div class='center-container'>
-                <a class="twitter-share-button" rel='johnloeber' data-size='large' href="https://twitter.com/intent/tweet">Tweet About This</a>
+                <a class="twitter-share-button" data-size='large' href="https://twitter.com/intent/tweet?text=Most%20Expensive%20Tweets&url=https%3A%2F%2Fmostexpensivetweets.com">Tweet</a>
             </div>
         </div>
 
-        <div class='footer row justify-content-center'>
+        <div class='footer justify-content-center'>
             <div>
                 Contribute on <a href='https://github.com/Datamine/Most-Expensive-Tweets'>GitHub</a> | Maintained by <a href='http://johnloeber.com'>John Loeber</a>
             </div>
