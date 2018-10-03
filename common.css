@@ -15,7 +15,6 @@ html, body {
 
 p {
     font-size: 0.7rem;
-    text-align:justify;
 }
 
 a {
@@ -41,6 +40,13 @@ a {
 .header {
     font-family: 'Roboto', sans-serif;
     font-weight:700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.subheader {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 /* FOOTER */
