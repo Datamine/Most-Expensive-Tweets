@@ -1,12 +1,12 @@
 [
     {
-        'status_id': '1026872652290379776',
-        'cost_usd': '40_000_000',
-        'description': "The funding was, in fact, not secured, and the SEC sued Musk. Elon had to step down as Tesla's Chairman, and both he and Tesla were fined $20m each."
+        "status_id": "1026872652290379776",
+        "cost_usd": "40_000_000",
+        "description": "The funding was, in fact, not secured, and the SEC sued Musk. Elon had to step down as Tesla's Chairman, and both he and Tesla were fined $20m each."
     },
     {
-        'status_id': '966429897118728192',
-        'cost_usd': '1_300_000_000',
-        description': "Kylie Jenner, unelected queen of the millennials, spoke about Snapchat. Her word is law, and Snap's stock dropped 7.2% the next day."
+        "status_id": "966429897118728192",
+        "cost_usd": "1_300_000_000",
+        "description": "Kylie Jenner, unelected queen of the millennials, spoke about Snapchat. Her word is law, and Snap's stock dropped 7.2% the next day."
     }
 ]
